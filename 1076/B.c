@@ -12,10 +12,9 @@ int main () {
         printf("%"PRIu64"\n", n / 2);
     }
     else {
-        uint64_t j = 3;
-        for ( ; j * j <= n; j += 2) {
+        for (uint64_t j = 3 ; j * j <= n; j += 2) {
             if (n % j == 0) {
-                printf("%"PRIu64"\n", (1 + (n - j) / 2));
+                printf("%"PRIu64"\n", (((n - j) / 2)) + 1);
                 n = 1;
                 break;
             }
@@ -24,6 +23,5 @@ int main () {
             printf("1\n");
         }
     }
-    
     return 0;
 }
