@@ -2,7 +2,6 @@
 #include <inttypes.h>
 #include <stdint.h>
 
-typedef int32_t I32;
 typedef int64_t I64;
 
 
