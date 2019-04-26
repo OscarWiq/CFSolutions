@@ -10,8 +10,9 @@ int main() {
 
 	while (n >= 10) {
 		n++;
-		while (n % 10 == 0)
+		while (n % 10 == 0) {
 			n /= 10;
+		}
 		count++;
 	}
 	
