@@ -17,7 +17,7 @@ int main () {
 
     if ((max - min) % 2 == 0) {
         d = (max - min) / 2;
-        k = min +d;
+        k = min + d;
 
         for (i = 0; i < n; i++) {
             if (((a[i] - d != k)) && (a[i] != k) && ((a[i] + d) != k)) {
