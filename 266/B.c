@@ -27,10 +27,6 @@ int main () {
 }
 
 char makeUpper(char ch) {
-    if (ch >= 97 && ch <= 122) {
-        return ch - 32;
-    }
-    else {
-        return ch;
-    }
+    return ch >= 97 && ch <= 122 ? ch - 32 : ch;
 }
+
